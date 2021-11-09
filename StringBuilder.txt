@@ -1,0 +1,53 @@
+1.
+package stringbuilder;
+
+public class StringBuilder{
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		StringBuilder s1 = new StringBuilder("The functionality of strings ");
+		 s1.append(" is a peer class of String");
+		 
+		 System.out.println(s1);
+		
+
+	}
+
+}
+2.
+package stringsbuilder;
+
+public class StringBuilder{
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		StringBuilder s1 = new StringBuilder("It is used to  at specified index position ");
+		 
+		 s1.insert(14, "build ");
+		 
+		 System.out.println(s1);
+
+
+	}
+
+}
+3.
+package stringobject;
+
+public class StringBuilderEx3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		StringBuilder sb = new StringBuilder("This is method returns object on which it was called ");
+		
+		sb.reverse();
+		
+		System.out.println(sb);
+
+
+	}
+
+}
+
+
+

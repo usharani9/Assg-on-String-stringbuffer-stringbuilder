@@ -1,0 +1,53 @@
+1.
+package stringbuffer;
+
+public class StringBuffer {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		StringBuffer s1 = new StringBuffer("The functionality of strings ");
+		 s1.append(" is a peer class of String");
+		 
+		 System.out.println(s1);
+		
+
+	}
+
+}
+2.
+package stringbuffer1;
+
+public class StringBuffer1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		StringBuffer s1 = new StringBuffer("It is used to  at specified index position ");
+		 
+		 s1.insert(14, "build ");
+		 
+		 System.out.println(s1);
+
+	}
+
+}
+3.
+package stringbuffer2;
+
+public class StringBuffer2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	 	
+			StringBuffer sb = new StringBuffer("This is method returns object on which it was called ");
+			
+			sb.reverse();
+			
+			System.out.println(sb);
+
+		
+	}
+
+}
+
+
